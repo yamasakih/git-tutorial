@@ -10,3 +10,8 @@ def test_my_sum_2():
     actual = my_sum(-1000, 50000)
     expected = 49000
     assert actual == expected
+
+def test_my_sum_3():
+    actual = my_sum(1000, 3000)
+    expected = 4000
+    assert actual == expected
