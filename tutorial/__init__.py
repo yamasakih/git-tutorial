@@ -18,7 +18,7 @@ def my_mean(array):
     """Calculate average of numbers
 
     Args:
-        array (list): The array of numbers.
+        array (List[Union[int, float]]): The array of numbers.
 
     Raises:
         ValueError: If the array is empty.
@@ -31,7 +31,7 @@ def my_mean(array):
     return sum(array) / len(array)
 
 def my_minus(a, b):
-    """Subtract one number from another.
+    """Subtract a from b.
 
     Args:
         a (numeric): The first number.
